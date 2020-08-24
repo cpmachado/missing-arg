@@ -1,0 +1,32 @@
+{
+  "name": "missing-arg",
+  "version": "1.0.0",
+  "description": "Test solutions to a missing argument problem",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "test": "mocha --exit",
+    "jsdoc": "jsdoc index.js lib/*.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpmachado/missing-arg.git"
+  },
+  "author": "Carlos Pinto Machado <cpmachado@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpmachado/missing-arg/issues"
+  },
+  "homepage": "https://github.com/cpmachado/missing-arg#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-google": "^0.14.0",
+    "jsdoc": "^3.6.5",
+    "mocha": "^8.1.1"
+  },
+  "dependencies": {}
+}
